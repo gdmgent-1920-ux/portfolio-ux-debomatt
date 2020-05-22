@@ -1,0 +1,13 @@
+:root {
+    --color-darkblue: #008083;
+    --color-lightblue: #17B3B8;
+    --color-lightred: #F39F7E;
+    --color-darkgreen: #ACD3B9;
+    --color-lightgrey: #E8E8E8;
+    --color-darkgrey: #D5D5D5;
+    --color-lightgreen: #77EB9E;
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+    
+    --text-font: 'Nunito Sans', sans-serif;
+}

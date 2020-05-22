@@ -1,0 +1,528 @@
+body {
+    font-size: 18px;
+    color: var(--color-black);
+    font-family: var(--text-font);
+    margin: 0;
+    right: 0;
+}
+
+/* header */
+header {
+    display: flex;
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: var(--color-darkblue);
+    z-index: 1;
+    padding-left: 0;
+}
+
+header .logo img {
+    margin-left: 100px;
+    position: relative;
+    width: 122px;
+    height: 82px;
+    top: 10px;
+}
+
+header .hamburger {
+    display: none;
+}
+
+header .hamburger a {
+    position: relative;
+    font-size: 36px;
+    color: var(--color-white);
+    top: 23px;
+    text-decoration: none;
+    left: 150px;
+}
+
+header .navigatie ul {
+    position: relative;
+    display: flex;
+    list-style-type: none;
+    top: 18px;
+    left: 200px;
+}
+
+header .navigatie ul li a {
+    color: var(--color-white);
+    text-decoration: none;
+    padding-right: 30px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+
+@media (max-width:1199px) {
+    header .navigatie ul {
+        left: 30px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width:991px) {
+    header .navigatie ul {
+        display: none;
+    }
+
+    header .hamburger {
+        display: block;
+        left: 320px;
+    }
+
+    header .logo img {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width:776px) {
+    header .hamburger {
+        left: 150px;
+    }
+
+}
+
+@media (max-width:532px) {
+    header .hamburger {
+        left: 40px;
+    }
+
+    header .logo img {
+        margin-left: 10px;
+    }
+}
+
+/* header */
+
+/* titel home page */
+.background {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 146px;
+    width: 100%;
+    padding-top: 200px;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+main .container .background {
+    position: absolute;
+}
+
+.background .note {
+    margin: auto;
+}
+
+.background .note img {
+    width: 100%;
+    position: relative;
+    top: -115px;
+}
+
+.background .titel h1 {
+    font-size: 16px;
+    position: relative;
+    top: -105px;
+    color: var(--color-white);
+    text-align: center;
+}
+
+/* titel home page */
+
+/* content home page */
+main {
+    padding: 0px;
+}
+
+.content01 {
+    padding-top: 185px;
+    background-color: var(--color-lightgrey);
+}
+
+.content02 {
+    background-color: var(--color-darkgrey);
+}
+
+.content03 {
+    background-color: var(--color-lightgrey);
+}
+
+.container .text {
+    margin-top: -10px;
+}
+
+.wie-zijn-we h1 {
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 25px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+.ons-doel h1 {
+    font-size: 25px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: end;
+}
+
+.tekst02 p {
+    text-align: end;
+}
+
+.wat-waarom h1 {
+    font-size: 25px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.text p {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+@media (min-width: 768px) {
+    .background {
+        height: 300px;
+    }
+
+    .background .titel h1 {
+        font-size: 25px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .background .note img {
+        top: -120px;
+    }
+
+    .content01 {
+        padding-top: 285px;
+    }
+}
+
+@media (min-width:992px) {
+    .background {
+        height: 500px;
+    }
+
+    .background .titel h1 {
+        font-size: 35px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .background .note img {
+        top: -90px;
+    }
+
+    .content01 {
+        padding-top: 490px;
+    }
+
+    .text {
+        padding-left: 130px;
+        padding-right: 130px;
+    }
+
+    .wie-zijn-we h1 {
+        padding-left: 139px;
+    }
+
+    .ons-doel h1 {
+        padding-right: 139px;
+    }
+
+    .wat-waarom h1 {
+        padding-left: 139px;
+    }
+}
+
+@media (min-width:1200px) {
+    .background .titel h1 {
+        font-size: 35px;
+        padding-left: 160px;
+        padding-right: 160px;
+    }
+
+    .text {
+        padding-left: 180px;
+        padding-right: 180px;
+    }
+
+    .wie-zijn-we h1 {
+        padding-left: 189px;
+    }
+
+    .ons-doel h1 {
+        padding-right: 189px;
+    }
+
+    .wat-waarom h1 {
+        padding-left: 189px;
+    }
+}
+
+/* content home page */
+
+
+/* footer */
+footer {
+    height: 100px;
+    background-color: var(--color-lightblue);
+    display: flex;
+    justify-content: center;
+
+}
+
+footer .footer-bar a img {
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 122px;
+    height: 82px;
+}
+
+footer .social-media-footer {
+    margin-top: 34px;
+    float: right;
+    margin-left: 150px;
+    display: none;
+}
+
+footer .social-media-footer a i {
+    padding-right: 15px;
+    font-size: 30px;
+    color: var(--color-white);
+}
+
+/* footer */
+
+/* Navigatie opengeklapt */
+.navigatie-opengeklapt {
+    background-image: url(../images/background_geroteerd.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 895px 920px;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.icon {
+    margin: 25px;
+    font-size: 30pt;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+
+}
+
+.icon a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+.lijst ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    background-color: var(--color-lightred);
+    text-decoration: none;
+    margin-left: 60px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.lijst ul li a {
+    color: var(--color-white);
+    list-style: none;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.lijst ul li {
+    margin-top: 20px;
+}
+
+.lijst .social-media {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.lijst .social-media li a {
+    padding-right: 25px;
+    padding-top: 15px;
+    font-size: 25pt;
+}
+
+/* Navigatie opengeklapt */
+
+
+/* podcast */
+.titel-podcast {
+    padding-top: 20px;
+    font-size: 30pt;
+}
+
+.titel .titel-podcast h1 {
+    font-size: 300pt;
+}
+
+.cards {
+    padding-top: 160px;
+    padding-bottom: 40px;
+}
+
+.cards img {
+    width: 100%;
+    padding-top: 18px;
+}
+
+
+@media (min-width:768px) {
+    .cards {
+        padding-top: 230px;
+    }
+}
+
+@media (min-width:992px) {
+    .cards {
+        padding-top: 350px;
+    }
+
+    .titel-podcast {
+        padding-top: 80px;
+    }
+
+    .titel-podcast h1 {
+        font-size: 40px;
+    }
+
+    footer .social-media-footer {
+        display: block;
+    }
+}
+
+/* podcast */
+
+
+/* contact */
+.contact {
+    padding-top: 100px;
+    background-color: var(--color-lightblue);
+    height: 496px;
+    color: var(--color-white);
+}
+
+.contact .contact-text {
+    font-size: 20px;
+    font-weight: 800;
+    padding-left: 24px;
+    padding-bottom: 25px;
+}
+
+.verzendknop a {
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--color-black);
+    background-color: var(--color-lightgreen);
+    border-radius: 31px;
+    text-align: center;
+    padding: 15px 0;
+    margin-bottom: 27px;
+}
+
+.naam {
+    margin-top: 27px;
+}
+
+.form-control input[type='text'],
+.form-control input[type='email']{
+    width: 100%;
+    border: 1px solid var(--color-black);
+    padding: 9px;
+    font-size: 22px;
+    outline: none;
+}
+
+form input{
+    margin-bottom: 30px;
+}
+
+.bericht input[type='text']{
+    padding-bottom: 180px;
+}
+
+@media (min-width:576px){
+    .contact {
+        height: 420px;
+    }
+}
+
+@media (min-width:768px){
+    .contact{
+        background: none;
+        padding-top: 170px;
+    }
+    .formulier{
+        justify-content: flex-start;
+    }
+    .contact .contact-text{
+        background-color: var(--color-lightblue);
+        padding: 40px;
+    }
+    .gegevens{
+        margin-top: -220px;
+    }
+    .button{
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width:992px){
+    .gegevens{
+        margin-top: -230px;
+    }
+    .button{
+        margin-bottom: 40px;
+    }
+    .contact{
+        padding-top: 185px;
+    }
+    .contact .contact-text{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+@media (min-width:1200px){
+    .gegevens{
+        margin-top: -240px;
+    }
+    .button{
+        margin-bottom: 30px;
+    }
+    .contact{
+        padding-top: 195px;
+    }
+    .contact .contact-text{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+/* contact */
