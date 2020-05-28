@@ -56,6 +56,10 @@ header .navigatie ul li a {
     font-size: 24px;
 }
 
+header .navigatie ul li a:hover {
+    color: var(--color-darkgrey);
+}
+
 
 @media (max-width:1199px) {
     header .navigatie ul {
@@ -306,6 +310,10 @@ footer .social-media-footer a i {
     color: var(--color-white);
 }
 
+footer .social-media-footer a i:hover {
+    color: var(--color-darkgrey);
+}
+
 /* footer */
 
 /* Navigatie opengeklapt */
@@ -326,7 +334,6 @@ footer .social-media-footer a i {
     position: absolute;
     top: 15px;
     right: 10px;
-
 }
 
 .icon a {
@@ -377,8 +384,8 @@ footer .social-media-footer a i {
     font-size: 30pt;
 }
 
-.titel .titel-podcast h1 {
-    font-size: 300pt;
+.titel-podcast h1 {
+    font-size: 500px;
 }
 
 .cards {
@@ -391,6 +398,9 @@ footer .social-media-footer a i {
     padding-top: 18px;
 }
 
+.cards img:hover {
+    box-shadow: 0px 5px var(--color-lightblue);
+}
 
 @media (min-width:768px) {
     .cards {
@@ -447,82 +457,98 @@ footer .social-media-footer a i {
     margin-bottom: 27px;
 }
 
+.verzendknop a:hover {
+    border-radius: 0px;
+    transition-duration: 0.3s;
+}
+
 .naam {
     margin-top: 27px;
 }
 
 .form-control input[type='text'],
-.form-control input[type='email']{
+.form-control input[type='email'] {
     width: 100%;
     border: 1px solid var(--color-black);
     padding: 9px;
-    font-size: 22px;
+    font-size: 20px;
     outline: none;
 }
 
-form input{
+form input {
     margin-bottom: 30px;
 }
 
-.bericht input[type='text']{
+.bericht input[type='text'] {
     padding-bottom: 180px;
 }
 
-@media (min-width:576px){
+@media (min-width:576px) {
     .contact {
         height: 420px;
     }
 }
 
-@media (min-width:768px){
-    .contact{
+@media (min-width:768px) {
+    .contact {
         background: none;
         padding-top: 170px;
     }
-    .formulier{
+
+    .formulier {
         justify-content: flex-start;
     }
-    .contact .contact-text{
+
+    .contact .contact-text {
         background-color: var(--color-lightblue);
         padding: 40px;
     }
-    .gegevens{
+
+    .gegevens {
         margin-top: -220px;
     }
-    .button{
+
+    .button {
         margin-bottom: 30px;
     }
 }
 
-@media (min-width:992px){
-    .gegevens{
+@media (min-width:992px) {
+    .gegevens {
         margin-top: -230px;
     }
-    .button{
+
+    .button {
         margin-bottom: 40px;
     }
-    .contact{
+
+    .contact {
         padding-top: 185px;
     }
-    .contact .contact-text{
+
+    .contact .contact-text {
         padding-top: 50px;
         padding-bottom: 50px;
     }
 }
 
-@media (min-width:1200px){
-    .gegevens{
+@media (min-width:1200px) {
+    .gegevens {
         margin-top: -240px;
     }
-    .button{
+
+    .button {
         margin-bottom: 30px;
     }
-    .contact{
-        padding-top: 195px;
+
+    .contact {
+        padding-top: 198px;
     }
-    .contact .contact-text{
+
+    .contact .contact-text {
         padding-top: 50px;
         padding-bottom: 50px;
     }
 }
+
 /* contact */
